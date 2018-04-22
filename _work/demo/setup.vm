@@ -1,0 +1,24 @@
+[BEGINVDF]
+Comment=G2MDK - DemoMod (%%D)%%NCopyright (c) 2004, Pluto 13 GmbH.%%NAll rights reserved.
+BaseDir=.\
+VDFName=.\install\Data\modvdf\DemoMod.mod
+[FILES]
+_work\data\Anims\_compiled\*.MAN
+_work\data\Anims\_compiled\*.MDH
+_work\data\Anims\_compiled\*.MDL
+_work\data\Anims\_compiled\*.MDM
+_work\data\Anims\_compiled\*.MMB
+_work\data\Anims\_compiled\*.MSB
+_work\data\Meshes\_compiled\*.MRM
+_work\data\Meshes\_compiled\*.MSH
+_work\data\Presets\*.ZEN
+_work\data\Scripts\_compiled\*.DAT
+_work\data\Scripts\Content\Cutscene\OU.BIN
+_work\data\Sound\SFX\*.WAV
+_work\data\Sound\Speech\*.WAV
+_work\data\Textures\_compiled\*-C.TEX
+_work\data\Textures\_compiled\*.FNT
+_work\data\Worlds\*.ZEN -r
+[EXCLUDE]
+[INCLUDE]
+[ENDVDF]

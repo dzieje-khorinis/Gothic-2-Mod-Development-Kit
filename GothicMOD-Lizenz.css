@@ -1,0 +1,41 @@
+body {
+	color: #CDCBEB;
+	background: #10102F;
+	font-size: 8pt;
+	font-family: Verdana, sans-serif;
+}
+h1 {
+	font-size: 12pt;
+}
+h2 {
+	font-size: 10pt;
+}
+blockquote {
+	font-family: Lucida Console, monospace;
+} 
+a {
+	color: #F8F8FD;
+	text-decoration: none;
+}
+a:link {
+	color: #F8F8FD;
+	text-decoration: none;
+}
+a:visited {
+	color: #F8F8FD;
+	text-decoration: none;
+}
+a:active {
+	color: #F8F8FD;
+	text-decoration: underline;
+}
+a:hover {
+	color: #F8F8FD;
+	text-decoration: underline;
+}
+ol {
+	list-style-type: lower-alpha;
+}
+ul {
+	list-style-type: disc;
+}

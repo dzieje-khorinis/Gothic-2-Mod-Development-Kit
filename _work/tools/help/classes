@@ -1,0 +1,83 @@
+zCEventMessage
+	oCMobMsg
+	oCNpcMessage
+		oCMsgAttack
+		oCMsgConversation
+		oCMsgDamage
+		oCMsgMagic
+		oCMsgManipulate
+		oCMsgMovement
+		oCMsgState
+		oCMsgUseItem
+		oCMsgWeapon
+	zCCSCamera_EventMsg
+	zCCSCamera_EventMsgActivate
+	zCEvMsgCutscene
+	zCEventCommon
+	zCEventCore
+	zCEventMover
+	zCEventMusicControler
+	zCEventScreenFX
+zCMaterial
+zCVob
+	oCDummyVobGenerator
+	oCVob (abstract)
+		oCItem (scripted)
+		oCMOB
+			oCMobInter
+				oCMobBed
+				oCMobFire
+				oCMobItemSlot
+				oCMobLadder
+				oCMobLockable (abstract)
+					oCMobContainer
+					oCMobDoor
+				oCMobSwitch
+				oCMobWheel
+		oCNpc (scripted)
+	zCCSCamera
+	zCCamTrj_KeyFrame
+	zCEffect (abstract)
+		oCVisualFX
+			oCVisFX_MultiTarget
+		zCEarthquake
+		zCMusicControler
+		zCPFXControler
+		zCTouchAnimate
+			zCTouchAnimateSound
+		zCTouchDamage
+			oCTouchDamage
+		zCVobAnimate
+		zCVobLensFlare
+		zCVobScreenFX
+	zCTriggerBase (abstract)
+		zCCodeMaster
+		zCMessageFilter
+		zCMoverControler
+		zCTrigger
+			oCCSTrigger
+			oCTriggerChangeLevel
+			oCTriggerScript
+			zCMover
+			zCTriggerList
+			zCTriggerTeleport
+		zCTriggerUntouch
+		zCTriggerWorldStart
+	zCVobLevelCompo
+	zCVobLight
+	zCVobSpot
+	zCVobStair
+	zCVobStartpoint
+	zCVobWaypoint
+	zCZone (abstract)
+		oCZoneMusic
+			oCZoneMusicDefault
+		zCVobSound
+			zCVobSoundDaytime
+		zCZoneMusic
+		zCZoneReverb
+			zCZoneReverbDefault
+		zCZoneVobFarPlane
+			zCZoneVobFarPlaneDefault
+		zCZoneZFog
+			zCZoneZFogDefault
